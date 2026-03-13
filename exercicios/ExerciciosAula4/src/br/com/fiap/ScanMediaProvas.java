@@ -1,3 +1,5 @@
+package br.com.fiap;
+
 import java.util.Scanner;
 
 public class ScanMediaProvas {
@@ -15,7 +17,7 @@ public class ScanMediaProvas {
             System.out.println("Digite a nota da 4ª prova: ");
             nota4 = scan.nextInt();
             media = (nota1 + nota2 + nota3 + nota4) / 4;
-            System.out.println("Nota da primeira prova:\t" + nota1 + "\nNota da segunda prova:\t" + nota2 + "\nNota da terceira prova:\t" + nota3 + "\nNota da quarta prova:\t" + nota4);
+            System.out.println("Nota da primeira prova:\t" + nota1 + "\nNota da segunda prova:\t" + nota2 + "\nNota da terceira prova:\t" + nota3 + "\nNota da quarta prova:\t" + nota4 + "\nMédia das notas: " + media);
         } catch (Exception e) {
 
         }
