@@ -24,7 +24,7 @@ public class MainInterativa {
             televisor.maisVolume();
         } else if (opcao == 4) {
             televisor.menosVolume();
-        } else if (opcao == 5){
+        } else {
             System.out.println("Digite uma opção válida!");
         }
         System.out.printf("Canal:\t%d\nVolume:\t%d", televisor.getCanal(), televisor.getVolume());
