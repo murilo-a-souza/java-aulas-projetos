@@ -25,6 +25,7 @@ public class Televisor {
             if (canal == 2 || canal == 4 || canal == 5 || canal == 7 || canal == 13) {
                 this.canal = canal;
             } else {
+                this.canal = 2;
                 throw new Exception("Canal indisponível. Apenas: 2, 4, 5, 7, e 13");
             }
         } catch (Exception e) {
