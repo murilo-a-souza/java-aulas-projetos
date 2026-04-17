@@ -16,11 +16,11 @@ public class Main {
             nome = JOptionPane.showInputDialog("Digite seu nome").toUpperCase();
             auxiliar = JOptionPane.showInputDialog("Digite data de nascimento (dia/mês/ano)");
             // Arrumando a string no formato ano-mês-dia --> "21/12/2012"
-            String ano = auxiliar.substring(6, 10);
-            String mes = auxiliar.substring(3, 5);
-            String dia = auxiliar.substring(0, 2);
-            String dataEUA = ano + "-" + mes + "-" + dia; // --> "2012-12-21"
-            dataNascimento = LocalDate.parse(dataEUA);
+//            String ano = auxiliar.substring(6, 10);
+//            String mes = auxiliar.substring(3, 5);
+//            String dia = auxiliar.substring(0, 2);
+//            String dataEUA = ano + "-" + mes + "-" + dia; // --> "2012-12-21"
+            dataNascimento = LocalDate.parse(auxiliar, dTF);
             pessoa1 = new Pessoa(nome, dataNascimento);
             JOptionPane.showMessageDialog(null, pessoa1.getDataNascimento());
             JOptionPane.showMessageDialog(null, String.format("Nome: %s\nData de Nascimento: (%s)\nIdade: %d",
