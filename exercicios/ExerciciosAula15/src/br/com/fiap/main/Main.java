@@ -36,7 +36,7 @@ public class Main {
                         nome = JOptionPane.showInputDialog("Digite o nome do vendedor: ");
                         auxiliar = JOptionPane.showInputDialog(String.format("Digite o valor da hora de trabalho do vendedor %s: ", nome));
                         valorHoraTrabalho = Integer.parseInt(auxiliar);
-                        auxiliar = JOptionPane.showInputDialog(String.format("Digite a comissão recebida pelo vendedor %s", nome));
+                        auxiliar = JOptionPane.showInputDialog(String.format("Digite a comissão recebida pelo vendedor %s (%%)", nome));
                         adicionais = Integer.parseInt(auxiliar);
                         Vendedor vendedor = new Vendedor(nome, valorHoraTrabalho, adicionais);
 
