@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="614aa394-aebb-4f79-b2c2-534be1536504" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/main/GUIPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto004/Projeto004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto004/Projeto004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto004/src/br/com/fiap/EntradaComJanela.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto004/src/br/com/fiap/EntradaComJanela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto004/src/br/com/fiap/EntradaDeDado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto004/src/br/com/fiap/EntradaDeDado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/Projeto03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/Projeto03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/src/br/com/fiap/Constante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/src/br/com/fiap/Constante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto03/src/br/com/fiap/Primitivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto03/src/br/com/fiap/Primitivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/Projeto05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/Projeto05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/ArCondicionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/ArCondicionado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Kindle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Kindle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/UsaRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto05/src/br/com/fiap/UsaRadio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/Projeto06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/Projeto06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/ArCondicionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/ArCondicionado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/FolhaDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/FolhaDePagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/bean/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/main/MainScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto06/src/br/com/fiap/main/MainScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/Projeto08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/Projeto08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/bean/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/bean/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/bean/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/bean/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto08/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/Projeto09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/Projeto09.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/src/br/com/fiap/bean/ArCondicionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/src/br/com/fiap/bean/ArCondicionado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto09/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto09/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/Projeto11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/Projeto11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/ComparaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/ComparaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/FormataData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/FormataData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/ManipulaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto11/src/br/com/fiap/main/ManipulaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/Projeto12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/Projeto12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/src/br/com/fiap/bean/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/src/br/com/fiap/bean/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto12/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto12/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/Projeto14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/Projeto14.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/src/br/com/fiap/bean/Geometria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/src/br/com/fiap/bean/Geometria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto14/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto14/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/ProjetoAula15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/ProjetoAula15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/bean/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto15/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/Projeto18.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/Projeto18.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/bean/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto18/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/Projeto19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/Projeto19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projeto19/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projeto19/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Garcom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Garcom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercicio17/src/br/com/fiap/bean/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/ExercicioAula14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/ExercicioAula14.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/src/br/com/fiap/bean/Adicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/src/br/com/fiap/bean/Adicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula14/src/br/com/fiap/main/MainAdicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula14/src/br/com/fiap/main/MainAdicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/ExercicioAula16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/ExercicioAula16.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/bean/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/main/MainConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula16/src/br/com/fiap/main/MainConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/ExercicioAula19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/ExercicioAula19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Freelancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Freelancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/VigiaNoturno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/bean/VigiaNoturno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/main/MainPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExercicioAula19/src/br/com/fiap/main/MainPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/ExerciciosAula10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/ExerciciosAula10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/Praticando10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/Praticando10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/bean/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/bean/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/main/MainFunc1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/main/MainFunc1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/main/MainFunc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula10/src/br/com/fiap/main/MainFunc2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/ExerciciosAula11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/ExerciciosAula11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/src/br/com/fiap/main/MainData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/src/br/com/fiap/main/MainData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula11/src/br/com/fiap/main/MainFrase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula11/src/br/com/fiap/main/MainFrase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/ExerciciosAula12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/ExerciciosAula12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/src/br/com/fiap/bean/Gestante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/src/br/com/fiap/bean/Gestante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula12/src/br/com/fiap/main/MainGestante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula12/src/br/com/fiap/main/MainGestante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/ExerciciosAula15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/ExerciciosAula15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/VigiaNoturno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/bean/VigiaNoturno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula15/src/br/com/fiap/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/ExerciciosAula4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/ExerciciosAula4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPAreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPAreaCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPIdade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPMediaProvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/JOPMediaProvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanAreaCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanAreaCirculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanIdade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanMediaProvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciosAula4/src/br/com/fiap/ScanMediaProvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3HQKxGGq5oPBZzFNsnoPLDbak8m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/murilo/projects/fiap/domain-drive-java/java-aulas-projetos/exercicios/ExercicioCriado1"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="614aa394-aebb-4f79-b2c2-534be1536504" name="Changes" comment="" />
+      <created>1785795096363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785795096363</updated>
+    </task>
+    <servers />
+  </component>
+</project>
