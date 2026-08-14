@@ -49,13 +49,14 @@ public class SuperHeroi {
         this.fraquezas = fraquezas;
     }
     public void listarHeroi(){
-        String exibe = String.format("Nome do herói: %s\nIdentidade Secreta: %s\n", nome, idSecreta);
+        String exibe = String.format("Nome do herói: %s\nIdentidade Secreta: %s\nPoderes:\n", nome, idSecreta);
         Collections.sort(poderes);
         Collections.sort(fraquezas);
         for (int i = 0; i < poderes.size(); i++) {
-            exibe += String.format("%d. %s\n", i, poderes.get(i));
+            exibe += String.format("%d. %s\n", (i+1), poderes.get(i));
         }
-        for (String i : poderes){
+        exibe += String.format("Fraquezas:\n");
+        for (String i : fraquezas){
             exibe += String.format("- %s\n", i);
         }
         JOptionPane.showMessageDialog(null, exibe, "TOP-SECRET", JOptionPane.INFORMATION_MESSAGE);
