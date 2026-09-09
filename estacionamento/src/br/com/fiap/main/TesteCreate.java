@@ -10,8 +10,8 @@ public class TesteCreate {
     static void main() {
         Connection con = ConnectionFactory.abrirConexao();
         Carro carro = new Carro();
-        carro.setPlaca("RSP8V14");
-        carro.setCor("Amarelo");
+        carro.setPlaca("GUA3I12");
+        carro.setCor("");
         carro.setDescricao("Kombi");
 
         CarroDAO carroDAO = new CarroDAO(con);
