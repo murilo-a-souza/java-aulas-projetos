@@ -46,9 +46,9 @@ public class GUIPrincipal extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //declarar objeto de guicarro e instanciar
-                //GUICarro carro = new GUICarro();
+                GUICarro carro = new GUICarro();
                 contentPane.removeAll();
-                // contentPane.add(carro);
+                contentPane.add(carro);
                 contentPane.validate();
             }
         });
