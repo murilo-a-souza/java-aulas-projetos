@@ -91,7 +91,7 @@ public class ClienteDAO implements IDAO{
             ps.setInt(1,cliente.getIdCliente());
             ResultSet rs = ps.executeQuery();
             if (rs.next()){
-                return "\nID cliente: " + rs.getString("id_cliente") + "\nNome cliente: " + rs.getString("nome_cliente") + "Placa: " + cliente.getPlaca();
+                return "\nID cliente: " + rs.getString("id_cliente") + "\nNome cliente: " + rs.getString("nome_cliente") + "\nPlaca: " + cliente.getPlaca();
 
 
             } else {
