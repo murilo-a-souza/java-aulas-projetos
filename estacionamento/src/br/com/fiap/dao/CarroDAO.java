@@ -64,8 +64,8 @@ public class CarroDAO {
         }
     }
 
-    public ArrayList<Carro> listarTodos(){
-        String sql = "select * from ddd_carro order by placa";
+    public ArrayList<Acao> listarTodos(){
+        String sql = "select * from acao order by placa";
         ArrayList<Carro> listaCarro = new ArrayList<>();
         try (PreparedStatement ps = getCon().prepareStatement(sql);
              ResultSet rs = ps.executeQuery()){
