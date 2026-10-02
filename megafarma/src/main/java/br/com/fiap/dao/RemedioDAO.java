@@ -2,6 +2,9 @@ package br.com.fiap.dao;
 
 import br.com.fiap.to.RemedioTO;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -18,5 +21,28 @@ public class RemedioDAO {
         remedios.add(remedio);
 
         return remedios;
+    }
+    public RemedioTO save(RemedioTO remedio){
+        String sql = "insert into ddd_remedios(nome, preco, data_de_fabricacao, data_de_validade) values (?, ?, ?, ?)";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql);){
+            ps.setString(1, remedio.getNome());
+            ps.setDouble(2, remedio.getPreco());
+            ps.setObject(3, remedio.getDataDeFabricacao());
+            ps.setObject(3, remedio.getDataDeValidade());
+
+            if(ps.executeUpdate() > 0){
+                System.out.println("Sucesso ao inserir");
+                return remedio;
+            } else{
+                System.out.println("Erro ao inserir");
+                return null;
+            }
+
+        } catch (SQLException e) {
+            System.out.println("Erro ao salvar: " + e.getMessage());;
+        } finally {
+            ConnectionFactory.closeConnection();
+        }
+        return null;
     }
 }
