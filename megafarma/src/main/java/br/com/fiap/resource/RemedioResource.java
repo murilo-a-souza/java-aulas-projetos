@@ -44,10 +44,10 @@ public class RemedioResource {
         }
     }
 
-    @PutMapping
-    public ResponseEntity<?> update(@RequestBody @Valid RemedioTO remedio){
+    @PutMapping("/{codigo}")
+    public ResponseEntity<?> update(@RequestBody @Valid RemedioTO remedio, @PathVariable Long codigo){
         try {
-            RemedioTO response = remedioBO.update(remedio);
+            RemedioTO response = remedioBO.update(remedio, codigo);
             return ResponseEntity.status(HttpStatus.OK).body(response);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao atualizar");

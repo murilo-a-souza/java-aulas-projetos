@@ -82,14 +82,14 @@ public class RemedioDAO {
         return null;
     }
 
-    public RemedioTO update(RemedioTO remedio) {
+    public RemedioTO update(RemedioTO remedio, Long codigo) {
         String sql = "update DDD_REMEDIOS set NOME=?,PRECO=?,DATA_DE_FABRICACAO=?,DATA_DE_VALIDADE=? where CODIGO=?";
         try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)){
             ps.setString(1,remedio.getNome());
             ps.setDouble(2,remedio.getPreco());
             ps.setDate(3,Date.valueOf(remedio.getDataDeFabricacao()));
             ps.setDate(4,Date.valueOf(remedio.getDataDeValidade()));
-            ps.setLong(5,remedio.getCodigo());
+            ps.setLong(5,codigo);
             if (ps.executeUpdate() > 0) {
                 System.out.println("Sucesso ao editar");
                 return remedio;
