@@ -38,10 +38,19 @@ public class RemedioResource {
     public ResponseEntity<?> save(@RequestBody @Valid RemedioTO remedio) {
         try {
             RemedioTO response = remedioBO.save(remedio);
-            System.out.println("chegou aqui");
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao salvar");
+        }
+    }
+
+    @PutMapping
+    public ResponseEntity<?> update(@RequestBody @Valid RemedioTO remedio){
+        try {
+            RemedioTO response = remedioBO.update(remedio);
+            return ResponseEntity.status(HttpStatus.OK).body(response);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao atualizar");
         }
     }
 

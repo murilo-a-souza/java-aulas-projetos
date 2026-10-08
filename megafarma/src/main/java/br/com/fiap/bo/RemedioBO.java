@@ -26,6 +26,11 @@ public class RemedioBO {
         return remedioDAO.save(remedio);
     }
 
+    public RemedioTO update(RemedioTO remedio) {
+        remedioDAO = new RemedioDAO();
+        return remedioDAO.update(remedio);
+    }
+
     public RemedioTO delete(RemedioTO remedio) {
         remedioDAO = new RemedioDAO();
         return remedioDAO.delete(remedio);
