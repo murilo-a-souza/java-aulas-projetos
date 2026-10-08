@@ -2,33 +2,69 @@ package br.com.fiap.dao;
 
 import br.com.fiap.to.RemedioTO;
 
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Timestamp;
+import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class RemedioDAO {
     public ArrayList<RemedioTO> findAll() {
         ArrayList<RemedioTO> remedios = new ArrayList<RemedioTO>();
-        RemedioTO remedio = new RemedioTO();
-
-        remedio = new RemedioTO(1L, "Loratadina", 7.93, LocalDate.parse("2023-10-10"), LocalDate.parse("2026-10-10"));
-        remedios.add(remedio);
-        remedio = new RemedioTO(2L, "Amoxicilina", 26.50, LocalDate.now(), LocalDate.now().plusYears(2));
-        remedios.add(remedio);
-        remedio = new RemedioTO(3L, "Metformina", 9.99, LocalDate.now().minusYears(1), LocalDate.now().plusYears(1));
-        remedios.add(remedio);
+        String sql = "select * from DDD_REMEDIOS order by CODIGO";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql);
+             ResultSet rs = ps.executeQuery()){
+            if (rs != null) {
+                while (rs.next()) {
+                    RemedioTO remedio = new RemedioTO();
+                    remedio.setCodigo(rs.getLong(1));
+                    remedio.setNome(rs.getString(2));
+                    remedio.setPreco(rs.getDouble(3));
+                    remedio.setDataDeFabricacao(rs.getDate(4).toLocalDate());
+                    remedio.setDataDeValidade(rs.getDate(5).toLocalDate());
+                    remedios.add(remedio);
+                }
+            } else {
+                return null;
+            }
+        } catch (SQLException e) {
+            System.out.println("Erro na consulta: " + e.getMessage());
+        } finally {
+            ConnectionFactory.closeConnection();
+        }
 
         return remedios;
     }
+
+    public RemedioTO findByCodigo(Long codigo){
+        RemedioTO remedio = new RemedioTO();
+        String sql = "select * from DDD_REMEDIOS where CODIGO = ? order by CODIGO";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql);
+             ){
+            ps.setLong(1, codigo);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                remedio.setCodigo(rs.getLong(1));
+                remedio.setNome(rs.getString(2));
+                remedio.setPreco(rs.getDouble(3));
+                remedio.setDataDeFabricacao(rs.getDate(4).toLocalDate());
+                remedio.setDataDeValidade(rs.getDate(5).toLocalDate());
+            } else {
+                return null;
+            }
+        } catch (SQLException e) {
+            System.out.println("Erro na consulta: " + e.getMessage());
+        } finally {
+            ConnectionFactory.closeConnection();
+        }
+        return remedio;
+    }
+
     public RemedioTO save(RemedioTO remedio){
         String sql = "insert into ddd_remedios(nome, preco, data_de_fabricacao, data_de_validade) values (?, ?, ?, ?)";
         try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql);){
             ps.setString(1, remedio.getNome());
             ps.setDouble(2, remedio.getPreco());
-            ps.setObject(3, remedio.getDataDeFabricacao());
-            ps.setObject(3, remedio.getDataDeValidade());
+            ps.setDate(3, Date.valueOf(remedio.getDataDeFabricacao()));
+            ps.setDate(4, Date.valueOf(remedio.getDataDeValidade()));
 
             if(ps.executeUpdate() > 0){
                 System.out.println("Sucesso ao inserir");
@@ -39,7 +75,26 @@ public class RemedioDAO {
             }
 
         } catch (SQLException e) {
-            System.out.println("Erro ao salvar: " + e.getMessage());;
+            System.out.println("Erro ao salvar: " + e.getMessage());
+        } finally {
+            ConnectionFactory.closeConnection();
+        }
+        return null;
+    }
+    public RemedioTO delete(RemedioTO remedio) {
+        String sql = "delete from DDD_REMEDIOS where CODIGO = ?";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)) {
+            ps.setLong(1, remedio.getCodigo());
+
+            if (ps.executeUpdate() > 0) {
+                System.out.println("Sucesso ao excluir");
+                return remedio;
+            } else {
+                System.out.println("Erro ao excluir");
+                return null;
+            }
+        } catch (SQLException e) {
+            System.out.println("Erro ao deletar: " + e.getMessage());
         } finally {
             ConnectionFactory.closeConnection();
         }

@@ -2,6 +2,7 @@ package br.com.fiap.resource;
 
 import br.com.fiap.bo.RemedioBO;
 import br.com.fiap.to.RemedioTO;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,17 +20,40 @@ public class RemedioResource {
         if (remedios != null) {
             return ResponseEntity.status(HttpStatus.OK).body(remedios);
         } else {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(remedios);
+        }
+    }
+
+    @GetMapping("/{codigo}")
+    public ResponseEntity<?> findByCodigo(@PathVariable Long codigo){
+        RemedioTO remedio = remedioBO.findByCodigo(codigo);
+        if (remedio != null) {
+            return ResponseEntity.status(HttpStatus.OK).body(remedio);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Remédio não encontrado");
         }
     }
 
     @PostMapping
-    public ResponseEntity<?> save(@RequestBody RemedioTO remedio) {
+    public ResponseEntity<?> save(@RequestBody @Valid RemedioTO remedio) {
         try {
             RemedioTO response = remedioBO.save(remedio);
+            System.out.println("chegou aqui");
             return ResponseEntity.status(HttpStatus.CREATED).body(response);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao salvar");
+        }
+    }
+
+    @DeleteMapping("/{codigo}")
+    public ResponseEntity<?> delete(@PathVariable Long codigo) {
+        try {
+            RemedioTO remedio = new RemedioTO();
+            remedio.setCodigo(codigo);
+            RemedioTO response = remedioBO.delete(remedio);
+            return ResponseEntity.status(HttpStatus.OK).body(response);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao excluir");
         }
     }
 }
