@@ -84,23 +84,43 @@ public class PokemonDAO {
         }
         return null;
     }
-    public PokemonTO delete(PokemonTO pokemon) {
-        String sql = "delete from DDD_POKEMON where CODIGO = ?";
-        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)) {
-            ps.setLong(1, pokemon.getCodigo());
 
+    public PokemonTO update(PokemonTO pokemon) {
+        String sql = "update DDD_POKEMON set NOME=?,altura=?,peso=?,categoria=?, data_de_captura=? where CODIGO=?";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)){
+            ps.setString(1, pokemon.getNome());
+            ps.setDouble(2, pokemon.getAltura());
+            ps.setDouble(3, pokemon.getAltura());
+            ps.setString(4, pokemon.getCategoria());
+            ps.setDate(5, Date.valueOf(pokemon.getDataDeCaptura()));
+            ps.setLong(6, pokemon.getCodigo());
             if (ps.executeUpdate() > 0) {
-                System.out.println("Sucesso ao excluir");
+                System.out.println("Sucesso ao editar");
                 return pokemon;
-            } else {
-                System.out.println("Erro ao excluir");
+            } else{
+                System.out.println("Erro ao editar");
                 return null;
             }
+        } catch (SQLException e) {
+            System.out.println("Erro ao atualizar: " + e.getMessage());
+        } finally {
+            ConnectionFactory.closeConnection();
+        }
+        return null;
+    }
+
+    public boolean delete(Long codigo) {
+        String sql = "delete from DDD_POKEMON where CODIGO = ?";
+        try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)) {
+            ps.setLong(1, codigo);
+
+            return ps.executeUpdate() > 0;
+
         } catch (SQLException e) {
             System.out.println("Erro ao deletar: " + e.getMessage());
         } finally {
             ConnectionFactory.closeConnection();
         }
-        return null;
+        return false;
     }
 }

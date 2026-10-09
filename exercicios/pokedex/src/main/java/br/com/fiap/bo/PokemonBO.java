@@ -20,14 +20,19 @@ public class PokemonBO {
         return pokemonDAO.findByCodigo(codigo);
     }
 
-    public PokemonTO save(PokemonTO remedio){
+    public PokemonTO save(PokemonTO pokemon){
         pokemonDAO = new PokemonDAO();
-        return pokemonDAO.save(remedio);
+        return pokemonDAO.save(pokemon);
     }
 
-    public PokemonTO delete(PokemonTO remedio) {
+    public PokemonTO update(PokemonTO pokemon){
         pokemonDAO = new PokemonDAO();
-        return pokemonDAO.delete(remedio);
+        return pokemonDAO.update(pokemon);
+    }
+
+    public boolean delete(Long codigo) {
+        pokemonDAO = new PokemonDAO();
+        return pokemonDAO.delete(codigo);
     }
 
 }

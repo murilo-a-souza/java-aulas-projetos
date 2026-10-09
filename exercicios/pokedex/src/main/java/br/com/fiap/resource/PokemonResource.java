@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLException;
 import java.util.List;
 
 @RestController
@@ -45,15 +46,22 @@ public class PokemonResource {
         }
     }
 
-    @DeleteMapping("/{codigo}")
-    public ResponseEntity<?> delete(@PathVariable Long codigo) {
+    @PutMapping("/{codigo}")
+    public ResponseEntity<?> update(@PathVariable Long codigo, @RequestBody PokemonTO pokemon){
         try {
-            PokemonTO pokemon = new PokemonTO();
-            pokemon.setCodigo(codigo);
-            PokemonTO response = pokemonBO.delete(pokemon);
-            return ResponseEntity.status(HttpStatus.OK).body(response);
+            pokemonBO.update(pokemon);
+            return ResponseEntity.status(HttpStatus.CREATED).body(pokemon);
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao excluir");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao atualizar");
+        }
+    }
+
+    @DeleteMapping("/{codigo}")
+    public ResponseEntity<String> delete(@PathVariable Long codigo) {
+        if (pokemonBO.delete(codigo)) {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Excluído com sucesso");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Pokemon não encontrado");
         }
     }
 }
