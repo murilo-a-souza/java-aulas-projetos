@@ -82,14 +82,14 @@ public class RemedioDAO {
         return null;
     }
 
-    public RemedioTO update(RemedioTO remedio, Long codigo) {
+    public RemedioTO update(RemedioTO remedio) {
         String sql = "update DDD_REMEDIOS set NOME=?,PRECO=?,DATA_DE_FABRICACAO=?,DATA_DE_VALIDADE=? where CODIGO=?";
         try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)){
             ps.setString(1,remedio.getNome());
             ps.setDouble(2,remedio.getPreco());
             ps.setDate(3,Date.valueOf(remedio.getDataDeFabricacao()));
             ps.setDate(4,Date.valueOf(remedio.getDataDeValidade()));
-            ps.setLong(5,codigo);
+            ps.setLong(5,remedio.getCodigo());
             if (ps.executeUpdate() > 0) {
                 System.out.println("Sucesso ao editar");
                 return remedio;
@@ -105,23 +105,17 @@ public class RemedioDAO {
         return null;
     }
 
-    public RemedioTO delete(RemedioTO remedio) {
+    public boolean delete(Long codigo) {
         String sql = "delete from DDD_REMEDIOS where CODIGO = ?";
         try (PreparedStatement ps = ConnectionFactory.getConnection().prepareStatement(sql)) {
-            ps.setLong(1, remedio.getCodigo());
+            ps.setLong(1, codigo);
 
-            if (ps.executeUpdate() > 0) {
-                System.out.println("Sucesso ao excluir");
-                return remedio;
-            } else {
-                System.out.println("Erro ao excluir");
-                return null;
-            }
+            return ps.executeUpdate() > 0;
         } catch (SQLException e) {
             System.out.println("Erro ao deletar: " + e.getMessage());
         } finally {
             ConnectionFactory.closeConnection();
         }
-        return null;
+        return false;
     }
 }

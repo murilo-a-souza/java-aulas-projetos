@@ -26,14 +26,14 @@ public class RemedioBO {
         return remedioDAO.save(remedio);
     }
 
-    public RemedioTO update(RemedioTO remedio, Long codigo) {
+    public RemedioTO update(RemedioTO remedio) {
         remedioDAO = new RemedioDAO();
-        return remedioDAO.update(remedio, codigo);
+        return remedioDAO.update(remedio);
     }
 
-    public RemedioTO delete(RemedioTO remedio) {
+    public boolean delete(Long codigo) {
         remedioDAO = new RemedioDAO();
-        return remedioDAO.delete(remedio);
+        return remedioDAO.delete(codigo);
     }
 
 }

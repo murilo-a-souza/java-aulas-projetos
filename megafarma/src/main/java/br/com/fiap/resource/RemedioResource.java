@@ -45,24 +45,22 @@ public class RemedioResource {
     }
 
     @PutMapping("/{codigo}")
-    public ResponseEntity<?> update(@RequestBody @Valid RemedioTO remedio, @PathVariable Long codigo){
+    public ResponseEntity<?> update(@PathVariable Long codigo, @RequestBody @Valid RemedioTO remedio){
         try {
-            RemedioTO response = remedioBO.update(remedio, codigo);
-            return ResponseEntity.status(HttpStatus.OK).body(response);
+            remedio.setCodigo(codigo);
+            RemedioTO response = remedioBO.update(remedio);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao atualizar");
         }
     }
 
     @DeleteMapping("/{codigo}")
-    public ResponseEntity<?> delete(@PathVariable Long codigo) {
-        try {
-            RemedioTO remedio = new RemedioTO();
-            remedio.setCodigo(codigo);
-            RemedioTO response = remedioBO.delete(remedio);
-            return ResponseEntity.status(HttpStatus.OK).body(response);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Erro ao excluir");
+    public ResponseEntity<String> delete(@PathVariable Long codigo) {
+        if (remedioBO.delete(codigo)){
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Remédio deletado com sucesso!");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Remédio não encontrado!");
         }
     }
 }
